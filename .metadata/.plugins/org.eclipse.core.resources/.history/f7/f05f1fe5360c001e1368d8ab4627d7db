@@ -1,0 +1,28 @@
+package clases.empleados;
+
+import javax.swing.JOptionPane;
+
+public class Medico  extends Empleado{
+	private String especialidad;
+	private int numeroDeConsultorio;
+	
+	@Override
+	public void registrarDatos() {
+		especialidad=JOptionPane.showInputDialog("Ingrese su especialidad");
+		numeroDeConsultorio=Integer.parseInt(JOptionPane.showInputDialog("Num consultorio"));
+	}
+	public String getEspecialidad() {
+		return especialidad;
+	}
+	public void setEspecialidad(String especialidad) {
+		this.especialidad = especialidad;
+	}
+	public int getNumeroConsultorio() {
+		return numeroConsultorio;
+	}
+	public void setNumeroConsultorio(int numeroConsultorio) {
+		this.numeroConsultorio = numeroConsultorio;
+	}
+	
+	
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Empleado"/>
+    <fullyQualifiedTypeName name="clases.empleados.Empleado"/>
+    <fullyQualifiedTypeName name="clases.Persona"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="Procesos"/>
+    <fullyQualifiedTypeName name="java.awt.geom.Arc2D.Double"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="clases.ModeloDatos"/>
+    <fullyQualifiedTypeName name="clases.empleados.EmpleadoPlanilla"/>
+    <fullyQualifiedTypeName name="clases.empleados.EmpleadoEventual"/>
+    <fullyQualifiedTypeName name="clases.empleados.Medico"/>
+    <fullyQualifiedTypeName name="clases.Paciente"/>
+</qualifiedTypeNameHistroy>

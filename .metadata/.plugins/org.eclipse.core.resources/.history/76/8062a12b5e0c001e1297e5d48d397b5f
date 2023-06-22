@@ -1,0 +1,10 @@
+package clases;
+
+import java.util.HashMap;
+
+public class ModeloDatos {
+	HashMap<String, Paciente> pacientesMap;
+	HashMap<String, EmpleadoPlanilla> empleadosPlanillaMap;
+	HashMap<String, EmpleadoEventual> empleadoEventualMap;
+	HashMap<String, Medico> medicosMap;
+}

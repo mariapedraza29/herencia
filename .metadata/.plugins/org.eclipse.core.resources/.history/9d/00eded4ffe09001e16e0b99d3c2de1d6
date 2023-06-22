@@ -1,0 +1,18 @@
+package clases;
+
+import javax.swing.JOptionPane;
+
+public class Persona {
+	private String numeroDeDNI;
+	private String nombre=JOptionPane.showInputDialog("nombre");
+	private String apellido;
+	private String fechaDeNacimiento;
+	private String direccion;
+	private String ciudadDeProcedencia;
+
+	public void imprimirDatosPersonales(String datos){
+		datos+="Nombre: "+nombre+"\n";
+		datos+="apellido: "+apellido+"\n";
+	}
+}
+

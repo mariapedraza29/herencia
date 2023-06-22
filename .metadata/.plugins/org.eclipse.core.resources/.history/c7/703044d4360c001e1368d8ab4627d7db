@@ -1,0 +1,20 @@
+package clases.empleados;
+
+public class EmpleadoEventual extends Empleado{
+	private double HonorariosPorHora;
+	private String fechaTerminoContrato;
+	
+	public double getHonorariosPorHora() {
+		return HonorariosPorHora;
+	}
+	public void setHonorariosPorHora(double honorariosPorHora) {
+		HonorariosPorHora = honorariosPorHora;
+	}
+	public String getFechaTerminoContrato() {
+		return fechaTerminoContrato;
+	}
+	public void setFechaTerminoContrato(String fechaTerminoContrato) {
+		this.fechaTerminoContrato = fechaTerminoContrato;
+	}
+	
+}

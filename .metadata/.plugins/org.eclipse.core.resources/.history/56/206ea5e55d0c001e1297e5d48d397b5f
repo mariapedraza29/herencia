@@ -1,0 +1,20 @@
+
+public class Procesos {
+	public Procesos() {
+		
+	}
+	private void presentarMenuOpciones() {
+		String menu="MENU HOSPITAL\n\n";
+		menu+="1. Registrar Paciente\n";
+		menu+="2. Registrar Empleado";
+		menu+="3. Registrar Cita Medica\n";
+		menu+="4. Imprimir Informacion\n";
+		menu+="5. Salir\n";
+		menu+="Ingrese una opcion\n";
+		
+		int opcion=0;
+		do {
+			opcion
+		} while (opcion!=5);
+	}
+}
